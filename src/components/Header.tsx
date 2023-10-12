@@ -4,15 +4,15 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div>
+    
       <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <Link
-            href="/home"
+            href="\"
             className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           >
             <Image width={30} height={30} src="logo.svg" alt="logo" />{" "}
-            <Link href="/home" className="ml-3 text-xl">
+            <Link href="\" className="ml-3 text-xl">
               Beuty links
             </Link>
           </Link>
@@ -48,7 +48,7 @@ const Header = () => {
           </button>
         </div>
       </header>
-    </div>
+    
   );
 };
 

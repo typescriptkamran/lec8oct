@@ -1,11 +1,3 @@
-import React from 'react'
-const deals = () => {
-  return (
-    <div>
-        
-        This is deals page
-    </div>
-  )
+export default function Page() {
+  return <h1>This is deals page!</h1>
 }
-
-export default deals

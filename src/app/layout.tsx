@@ -2,12 +2,13 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Beuty Links',
-  description: 'skin car products',
+  description: 'skin care products',
 }
 
 
@@ -19,13 +20,14 @@ export default function RootLayout({
   return (
     
     <html lang="en">
-    
-    <header><Header /></header>    
+           
     <body className={inter.className}>
+     <Header />
+     <main>{children}</main> 
       
-      {children}
+     <Footer />
     </body>
-    <footer>this is footer</footer>
+    
     </html>
   )
 }
