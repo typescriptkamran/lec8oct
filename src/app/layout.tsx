@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     
-    <html lang="en">
+    <html lang="en" data-theme="winter">
            
     <body className={inter.className}>
      <Header />

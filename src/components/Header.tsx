@@ -11,7 +11,7 @@ const Header = () => {
             href="\"
             className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
           >
-            <Image width={30} height={30} src="logo.svg" alt="logo" />{" "}
+            <Image width={30} height={30} src="./logo/logo.svg" alt="logo" />{" "}
             <Link href="\" className="ml-3 text-xl">
               Beuty links
             </Link>

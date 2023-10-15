@@ -1,7 +1,15 @@
+import Hero from '@/components/Hero'
+import Card from '@/components/Card'
+
+
 export default function Home() {
   return (
     <main>
-      <h1>this is home page</h1>
+      <Hero />
+      <Card />
+
+      
+      
 
     </main> 
       );
